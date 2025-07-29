@@ -38,7 +38,7 @@ Once the application is running, API documentation will be available at:
 ### **1️⃣ Clone the repository**
 ```bash
 git clone https://github.com/alirezarazani2003/Fast-BOZ.git
-cd fastboz
+cd Fast-BOZ
 ```
 
 ### **2️⃣ Local Setup**
