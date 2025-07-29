@@ -76,7 +76,7 @@ http://localhost:8888
 | GET    | `/`          | Health check / root route |
 | GET    | `/docs`      | Swagger API docs          |
 | GET    | `/redoc`     | ReDoc API docs            |
-| GET    | `/api/info`     | ReDoc API docs            |
+| GET    | `/api/info`     | info          |
 
 ---
 
