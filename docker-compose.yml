@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ai-service:
+    build: .
+    ports:
+      - "8888:8888"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
